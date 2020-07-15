@@ -19,7 +19,7 @@ CREATE TABLE todo.tasks (
 
 ### 2. Configure the database connection
 
-Update the configuration for your target database instance.
+Update the [configuration in api.py](https://github.com/mariadb-corporation/dev-example-connector-python/blob/master/samples/app/flask/api.py#L14-L19) for your target database instance.
 
 ```python
 config = {
