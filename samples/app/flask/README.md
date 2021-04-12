@@ -19,7 +19,7 @@ CREATE TABLE todo.tasks (
 
 ### 2. Configure the database connection
 
-Update the configuration for your target database instance.
+Update the [configuration in api.py](https://github.com/mariadb-corporation/dev-example-connector-python/blob/master/samples/app/flask/api.py#L14-L19) for your target database instance.
 
 ```python
 config = {
@@ -32,7 +32,27 @@ config = {
 
 Then save api.py.
 
-### 3. Install Python modules
+### 3. Set up and activate a virtual environment <a name="activate"></a>
+
+A virtual environment is a directory tree which contains Python executable files and other files which indicate that it is a virtual environment. Basically, it's the backbone for running your Python Flask app.
+
+Creation of [virtual environments](https://docs.python.org/3/library/venv.html?ref=hackernoon.com#venv-def) is done by executing the following command:
+
+```
+$ python3 -m venv venv
+```
+
+**Tip**: Tip: pyvenv is only available in Python 3.4 or later. For older versions please use the [virtualenv](https://virtualenv.pypa.io/en/latest/) tool. 
+
+Before you can start installing or using packages in your virtual environment, you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH.
+
+Activate the virtual environment using the following command:
+
+```bash
+$ . venv/bin/activate activate
+```
+
+### 4. Install Python modules
 
 Open a terminal window and install the MariaDB and Flask modules.
 
@@ -40,7 +60,7 @@ Open a terminal window and install the MariaDB and Flask modules.
 $ pip install mariadb flask
 ```
 
-### 4. Start the API project
+### 5. Start the API project
 
 ```bash
 $ python api.py
