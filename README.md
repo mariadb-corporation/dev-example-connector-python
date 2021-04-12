@@ -7,7 +7,8 @@ This repository contains samples that demonstrate the capabilities of MariaDB Co
     1. [MariaDB Platform](#platform)
     2. [MariaDB SkySQL](#skysql)
 2. [Getting started with MariaDB Connector/Python](#python-getting-started)
-3. [Additional resources](#additional-resources)
+3. [MariaDB Connector/Python Samples](#python-samples)
+4. [Additional resources](#additional-resources)
 5. [Support and contribution](#support-contribution)
 6. [License](#license)
 
@@ -49,6 +50,13 @@ Along with having access to a running instance of MariaDB and before jumping int
 
 * [Python](https://www.python.org/downloads/) (v. 3.6+)
 * [MariaDB Connector/C](https://mariadb.com/products/skysql/docs/clients/mariadb-connector-c-for-skysql-services/) (v. 3.1.5+)
+
+## MariaDB Connector/Python Samples <a name="python-samples"></a>
+
+This repository contains sample applications and usages that will help you gain an understanding of how to take advantage of MariaDB Connector/Python.
+
+* [Simple API application](samples/app/flask): A Python application that uses [Flask](https://flask.palletsprojects.com/en/1.1.x/) to expose endpoints that can be used to perform simple CRUD operations with MariaDB Connector/Python.
+* [Data Visualization](samples/analysis): Using MariaDB Connector/Python, the libraries [Plotly](https://plotly.com/) and [Pandas](https://pandas.pydata.org/) are used to demonstrate data analysis and visualization.
 
 ## Additional resources <a name="additional-resources"></a>
 
