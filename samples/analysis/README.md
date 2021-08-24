@@ -51,7 +51,7 @@ Regardless of which option you choose you will need to do the following to prepa
         'user': 'DB00004088',
         'password': 'Password123!,
         'database': 'travel',
-        'ssl': 1
+        'ssl': True
     }
     ```
 
