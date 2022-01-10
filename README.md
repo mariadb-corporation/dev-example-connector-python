@@ -14,35 +14,9 @@ This repository contains samples that demonstrate the capabilities of MariaDB Co
 
 ## Getting started with MariaDB <a name="mdb-getting-started"></a>
 
-To be able to use MariaDB Connector/Python you're going to need to have access to a running MariaDB database instance. For more information check out the following options below. 
+[MariaDB](https://mariadb.com) is a community-developed, commercially supported relational database management system, and the database you'll be using for this application.
 
-### MariaDB Platform <a name="platform"></a>
-
-[MariaDB Platform](https://mariadb.com/products/mariadb-platform/) integrates [transactional](https://mariadb.com/products/mariadb-platform-transactional/) and [analytical](https://mariadb.com/products/mariadb-platform-analytical/) products so developers can build modern applications by enriching transactions with real-time analytics and historical data, creating insightful experiences and compelling opportunities for customers – and for businesses, endless ways to monetize data. 
-
-<p align="center" spacing="10">
-    <kbd>
-        <img src="media/platform.png" />
-    </kbd>
-</p>
-
-To get started using MariaDB locally you can choose one of the following options:
-
-* [Download and install MariaDB (Community or Enterprise) directly from mariadb.com](https://mariadb.com/docs/deploy/installation/) 
-
-* [Download and install MariaDB using the official MariaDB Community Server 10.5 Docker Image available at hub.docker.com](https://hub.docker.com/r/mariadb/columnstore)
-
-### MariaDB SkySQL <a name="skysql">
-
-[SkySQL](https://mariadb.com/products/skysql/) is the first and only database-as-a-service (DBaaS) to bring the full power of MariaDB Platform to the cloud, including its support for transactional, analytical and hybrid workloads. Built on Kubernetes, and optimized for cloud infrastructure and services, SkySQL combines ease of use and self-service with enterprise reliability and world-class support – everything needed to safely run mission-critical databases in the cloud, and with enterprise governance.
-
-[Get started with SkySQL!](https://mariadb.com/products/skysql/#get-started)
-
-<p align="center" spacing="10">
-    <kbd>
-        <img src="media/skysql.png" />
-    </kbd>
-</p>
+If you don't have a MariaDB database up and running you can find more information on how to download, install and start using a MariaDB database in the [MariaDB Quickstart Guide](https://github.com/mariadb-developers/mariadb-getting-started).
 
 ## Getting started with MariaDB Connector/Python <a name="python-getting-started"></a>
 
@@ -67,9 +41,17 @@ This repository contains sample applications and usages that will help you gain 
 
 ## Support and Contribution <a name="support-contribution"></a>
 
-Thanks so much for taking a look at these samples! Please feel free to submit PR's to include your modifications and innovations.
+Please feel free to submit PR's, issues or requests to this project project or projects within the [official MariaDB Corporation GitHub organization](https://github.com/mariadb-corporation).
 
-If you have any questions, comments, or would like to contribute to this or future projects like this please reach out to us directly at developers@mariadb.com or on [Twitter](https://twitter.com/mariadb).
+If you have any other questions, comments, or looking for more information on MariaDB please check out:
+
+* [MariaDB Developer Hub](https://mariadb.com/developers)
+* [MariaDB Community Slack](https://r.mariadb.com/join-community-slack)
+
+Or reach out to us diretly via:
+
+* [developers@mariadb.com](mailto:developers@mariadb.com)
+* [MariaDB Twitter](https://twitter.com/mariadb)
 
 ## License <a name="license"></a>
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)](https://opensource.org/licenses/MIT)
