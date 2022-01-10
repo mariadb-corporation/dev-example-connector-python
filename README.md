@@ -1,5 +1,9 @@
 # MariaDB Connector/Python Samples
 
+⚠️ **[UNMAINTAINED]** This repository has been moved and is currently maintained [here](https://github.com/mariadb-developers/mariadb-connector-python-samples). ⚠️
+
+<br />
+
 This repository contains samples that demonstrate the capabilities of MariaDB Connector/Python. 
 
 ## Table of Contents
